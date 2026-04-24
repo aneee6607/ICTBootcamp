@@ -1,0 +1,130 @@
+body {
+  font-family: Arial;
+  background: #f2eee9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: #1e2235;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid #c0392b;
+  padding-bottom: 5px;
+}
+
+/* Links */
+.links a {
+  margin-right: 10px;
+  color: #c0392b;
+}
+
+/* Images */
+.image-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background: #1e2235;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Form */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-grid textarea {
+  height: 100px;
+}
+
+.full {
+  grid-column: span 2;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.submit {
+  background: #c0392b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.reset {
+  padding: 10px 20px;
+}
+
+/* Box Model */
+.boxes {
+  display: flex;
+  gap: 15px;
+}
+
+.margin {
+  border: 2px dashed blue;
+  padding: 20px;
+}
+
+.border {
+  border: 5px solid red;
+  padding: 20px;
+}
+
+.padding {
+  border: 2px solid green;
+  padding: 30px;
+}
+
+.content {
+  margin-top: 15px;
+  padding: 20px;
+  background: #eee;
+} 

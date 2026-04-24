@@ -1,0 +1,18 @@
+body {
+    background-color: aliceblue;
+    font-size: 40px;
+}
+ul {
+    color: red;
+    font-size: 30px;
+}
+.nav {
+    background-color: blanchedalmond ;
+}
+.foot{
+    background-color: blueviolet;
+}
+title1{
+    color: chartreuse;
+    text-align: center;
+}

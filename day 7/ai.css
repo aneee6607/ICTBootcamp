@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f3ef;
+  margin: 0;
+}
+
+/* Header */
+.hero {
+  background: #1c2238;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Card layout */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+  border-bottom: 2px solid #c44;
+  padding-bottom: 5px;
+}
+
+/* Tags */
+.tags span {
+  display: inline-block;
+  background: #eee;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* Links */
+.links a {
+  margin-right: 15px;
+  color: #c44;
+  text-decoration: none;
+}
+
+/* Images */
+.image-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #1c2238;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Box Model */
+.box-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.margin {
+  border: 2px dashed blue;
+}
+
+.border {
+  border: 5px solid red;
+}
+
+.padding {
+  border: 2px solid green;
+}
+
+.content {
+  margin-top: 20px;
+  background: #eee;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML & CSS Fundamentals</title>
+  <link rel="stylesheet" href="ai.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <h1>HTML & CSS Fundamentals</h1>
+  <p>Text · Links · Images · Tables · Forms · Selectors · Box Model</p>
+</header>
+
+<!-- TEXT -->
+<section class="card">
+  <h2>1. Text</h2>
+  <h3>Headings & Paragraphs</h3>
+  <p>HTML provides six heading levels and paragraph tags.</p>
+  <p>You can use <b>bold</b>, <i>italic</i>, <u>underline</u>.</p>
+
+  <blockquote>
+    "First, solve the problem. Then, write the code."
+  </blockquote>
+</section>
+
+<!-- LINKS -->
+<section class="card">
+  <h2>2. Links</h2>
+  <p>Links use the &lt;a&gt; tag.</p>
+  <div class="links">
+    <a href="#">MDN Web Docs</a>
+    <a href="#">W3Schools</a>
+    <a href="#">Send Email</a>
+  </div>
+</section>
+
+<!-- IMAGES -->
+<section class="card">
+  <h2>3. Images</h2>
+
+  <div class="image-grid">
+    <div>
+      <img src="https://picsum.photos/300/200?1">
+      <p>Mountain</p>
+    </div>
+    <div>
+      <img src="https://picsum.photos/300/200?2">
+      <p>Forest</p>
+    </div>
+    <div>
+      <img src="https://picsum.photos/300/200?3">
+      <p>Ocean</p>
+    </div>
+  </div>
+</section>
+
+<!-- TABLE -->
+<section class="card">
+  <h2>4. Tables</h2>
+
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Purpose</th>
+    </tr>
+    <tr>
+      <td>&lt;p&gt;</td>
+      <td>Paragraph</td>
+      <td>Text content</td>
+    </tr>
+    <tr>
+      <td>&lt;a&gt;</td>
+      <td>Anchor</td>
+      <td>Links</td>
+    </tr>
+    <tr>
+      <td>&lt;img&gt;</td>
+      <td>Image</td>
+      <td>Display image</td>
+    </tr>
+  </table>
+</section>
+
+<!-- FORM -->
+<section class="card">
+  <h2>5. Forms</h2>
+
+  <form class="form-grid">
+    <div>
+      <label>First Name</label>
+      <input type="text" placeholder="e.g. Aarav">
+    </div>
+
+    <div>
+      <label>Last Name</label>
+      <input type="text" placeholder="e.g. Sharma">
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" placeholder="you@example.com">
+    </div>
+
+    <div>
+      <label>Age</label>
+      <input type="number" placeholder="25">
+    </div>
+
+    <div>
+      <label>Country</label>
+      <select>
+        <option>-- Select --</option>
+        <option>India</option>
+        <option>USA</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Password</label>
+      <input type="password" placeholder="Min 8 characters">
+    </div>
+
+    <div class="full">
+      <label>Short Bio</label>
+      <textarea placeholder="Tell us about yourself"></textarea>
+    </div>
+
+    <div class="full">
+      <label>Interests</label><br>
+      <input type="checkbox"> HTML
+      <input type="checkbox"> CSS
+      <input type="checkbox"> JavaScript
+    </div>
+
+    <div class="full">
+      <label>Experience</label><br>
+      <input type="radio" name="exp"> Beginner
+      <input type="radio" name="exp"> Intermediate
+      <input type="radio" name="exp"> Advanced
+    </div>
+
+    <div class="full buttons">
+      <button class="submit">Submit</button>
+      <button type="reset" class="reset">Reset</button>
+    </div>
+  </form>
+</section>
+
+<!-- SELECTORS -->
+<section class="card">
+  <h2>6. CSS Selectors</h2>
+
+  <table>
+    <tr>
+      <th>Selector</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td>Element</td>
+      <td>p { }</td>
+    </tr>
+    <tr>
+      <td>Class</td>
+      <td>.box { }</td>
+    </tr>
+    <tr>
+      <td>ID</td>
+      <td>#header { }</td>
+    </tr>
+  </table>
+</section>
+
+<!-- BOX MODEL -->
+<section class="card">
+  <h2>7. CSS Box Model</h2>
+
+  <div class="boxes">
+    <div class="margin">Margin</div>
+    <div class="border">Border</div>
+    <div class="padding">Padding</div>
+  </div>
+
+  <div class="content">Content</div>
+</section>
+
+</body>
+</html>
